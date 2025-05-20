@@ -41,7 +41,7 @@ public class ExpenseTracker {
 
 
     public static void main(String[] args) throws IOException {
-        String filePath="/home/shku275347/Documents/Alephys/ExpenseTracker/src/main/resources";
+        String filePath="ABSOLUTE_PATH/ExpenseTracker/src/main/resources";
         ObjectMapper mapper = new ObjectMapper();
         Transactions transactions = new Transactions();
         Scanner in = new Scanner(System.in);
